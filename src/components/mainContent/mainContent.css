@@ -1,0 +1,9 @@
+.main-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+h1 {
+  color: #362b24;
+}

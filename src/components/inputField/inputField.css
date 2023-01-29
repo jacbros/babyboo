@@ -1,0 +1,27 @@
+input {
+  width: 150px;
+  color: #fff;
+  height: 32px;
+  background-color: #362b24;
+  border: 2px solid #fff !important;
+  border-radius: 12px;
+  font-weight: 400;
+}
+
+::placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
+@media screen and (min-width: 769px) {
+  input {
+    margin-right: 180px;
+  }
+}
