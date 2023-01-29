@@ -1,9 +1,18 @@
 .main-content {
   width: 100%;
   display: flex;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
   margin: 0 auto;
 }
 h1 {
   color: #362b24;
+  margin: 32px 0;
+}
+
+@media screen and (min-width: 769px) {
+  .welcome {
+    width: 80%;
+  }
 }

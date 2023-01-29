@@ -1,0 +1,19 @@
+.fa-heart {
+  font-size: 32px;
+  margin-left: -16px;
+  margin-right: 8px;
+}
+.fa-cloud-arrow-down {
+  color: #000;
+}
+
+.favorites button {
+  width: 50px !important;
+}
+.favorite-entry {
+  display: flex;
+  align-items: center;
+}
+.favorite-button {
+  margin-left: auto !important;
+}

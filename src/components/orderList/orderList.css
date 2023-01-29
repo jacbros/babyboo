@@ -1,0 +1,70 @@
+.fa-check-to-slot {
+  margin-left: -16px;
+}
+
+.content-heading {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 24px 0;
+}
+.content-heading a {
+  text-decoration: underline;
+}
+
+.content-heading h2 {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.fa-check-to-slot {
+  font-size: 32px;
+  margin-right: 8px;
+}
+.order-total {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+.content-container table {
+  width: 100%;
+}
+.content-container table td {
+  font-family: "Oswald";
+  text-transform: uppercase;
+  margin: 6px 0;
+}
+
+.content-container table td .fa-beer-mug-empty {
+  font-size: 32px;
+  margin-left: -16px;
+  margin-right: 8px;
+}
+
+.content-container button {
+  margin: 0 auto;
+  font-family: "Oswald";
+  width: 100px;
+  padding: 8px 4px;
+  border-radius: 32px;
+  background-color: #cfccc5;
+  color: #6a474c;
+}
+
+.content-container button .fa-chevron-down {
+  margin-left: 8px;
+}
+
+.content-heading a {
+  color: #000;
+  font-family: "Lato";
+  margin-left: 24px;
+}

@@ -1,0 +1,44 @@
+.campaign-container .fa-bullhorn {
+  font-size: 32px;
+  margin-right: 12px;
+}
+
+.campaign-entry {
+  position: relative;
+  width: 375px;
+  height: 260px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../../assets/campaign.jpg);
+  background-size: cover;
+  list-style-type: none;
+  border-radius: 12px;
+  margin: 16px 0;
+}
+.campaign-badge {
+  position: absolute;
+  padding: 4px;
+  background-color: #854223;
+  color: #fff;
+  top: 6%;
+  left: 4%;
+}
+
+.campaign-title {
+  position: absolute;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  left: 4%;
+  font-size: 20px;
+  bottom: 25%;
+}
+
+.campaign-button {
+  position: absolute;
+  font-family: "Oswald", sans-serif;
+  background-color: #cfccc5;
+  padding: 4px 8px;
+  border-radius: 16px;
+  bottom: 10%;
+  left: 4%;
+}
