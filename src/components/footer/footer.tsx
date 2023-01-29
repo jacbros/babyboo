@@ -13,7 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Footer = (props: any) => {
   return (
     <div className="footer-container">
-      <div className="content-heading">
+      <div className="footer-heading">
         <h2>Dine forhandler ressourcer for Erdinger Dünkelbier</h2>
       </div>
       <div className="footer-items">

@@ -1,3 +1,7 @@
+.campaign-container {
+  margin: 32px 0;
+}
+
 .campaign-container .fa-bullhorn {
   font-size: 32px;
   margin-right: 12px;
@@ -41,4 +45,20 @@
   border-radius: 16px;
   bottom: 10%;
   left: 4%;
+}
+
+@media screen and (min-width: 769px) {
+  .campaign-entry {
+    width: 300px;
+  }
+  .content-heading h2 {
+    margin-left: 0 !important;
+  }
+  .campaign-container {
+    width: 80%;
+  }
+  .campaign-container ul {
+    display: flex;
+    gap: 2%;
+  }
 }

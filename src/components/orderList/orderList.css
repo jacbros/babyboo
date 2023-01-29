@@ -68,3 +68,16 @@
   font-family: "Lato";
   margin-left: 24px;
 }
+
+@media screen and (min-width: 769px) {
+  .orderlist-container {
+    width: 40%;
+  }
+  .content-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .content-container table td .fa-beer-mug-empty {
+    margin-left: 0;
+  }
+}

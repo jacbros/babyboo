@@ -1,9 +1,17 @@
-.footer-container {
+.footer-wrapper {
+  padding: 40px 0;
   width: 100%;
   background-color: #c4c9c1;
 }
-.content-heading h2 {
-  margin-left: 5%;
+
+.footer-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.footer-heading h2 {
+  text-align: center;
 }
 .footer-items {
   display: flex;

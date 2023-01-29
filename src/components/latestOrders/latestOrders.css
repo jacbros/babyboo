@@ -12,9 +12,18 @@
 }
 .latest-container table {
   width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 15px;
 }
 .latest-container .latest-order-table tr td a {
   font-family: "Lato";
   margin-left: 12px;
   text-decoration: underline;
+  white-space: nowrap;
+}
+
+@media screen and (min-width: 769px) {
+  .latest-container {
+    width: 28%;
+  }
 }

@@ -12,15 +12,15 @@ const MainContent = (props: any) => {
       <div className="welcome">
         <h1>Velkommen Joe Schmoe</h1>
       </div>
-      <div>
+      <div className="main-content-center">
         <OrderList></OrderList>
         <LatestOrders></LatestOrders>
         <Favorites></Favorites>
       </div>
-      <div>
-        <Campaigns></Campaigns>
+      <Campaigns></Campaigns>
+      <div className="footer-wrapper">
+        <Footer></Footer>
       </div>
-      <Footer></Footer>
     </div>
   );
 };

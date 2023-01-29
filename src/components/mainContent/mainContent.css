@@ -15,4 +15,9 @@ h1 {
   .welcome {
     width: 80%;
   }
+  .main-content-center {
+    width: 80%;
+    display: flex;
+    gap: 5%;
+  }
 }

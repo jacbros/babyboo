@@ -39,7 +39,7 @@ const NavBar = (props: any) => {
           <FontAwesomeIcon icon={faBars} />
         </button>
       </div>
-      <div style={menuStyles}>
+      <div className="navbar-desktop" style={menuStyles}>
         <ul className="navbar-center">
           <li>
             <a href="#">IPA</a>
